@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 #
 # https://github.com/Nyr/openvpn-install
 #
@@ -403,16 +403,3 @@ verb 3" > /etc/openvpn/client-common.txt
 	echo "Your client configuration is available at:" ~/"$CLIENT.ovpn"
 	echo "If you want to add more clients, you simply need to run this script again!"
 fi
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
