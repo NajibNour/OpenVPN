@@ -1,23 +1,4 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @NajibNour Sign out
-0
-0 1,899 NajibNour/openvpn-install
-forked from Nyr/openvpn-install
- Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
-openvpn-install/openvpn-install.sh
-c90989a  17 days ago
-@Nyr Nyr Use a predefined DH group
-@Nyr @ValdikSS @Kcchouette @iProdigy @redorkulated @hcartiaux @hhktony @angrysnarl
-    
-406 lines (398 sloc)  14.4 KB
-#!/bin/bash
+# !/bin/bash
 #
 # https://github.com/Nyr/openvpn-install
 #
