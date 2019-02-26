@@ -376,6 +376,7 @@ dev tun
 proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
+script-security 2
 remote $IP $PORT
 resolv-retry infinite
 nobind
