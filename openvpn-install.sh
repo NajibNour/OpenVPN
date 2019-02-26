@@ -268,9 +268,8 @@ tls-auth ta.key 0
 topology subnet
 server 10.8.$TEAM.0 255.255.255.0
 ifconfig-pool-persist ipp.txt" > /etc/openvpn/server.conf
-echo 'push "route 10.1.10.0 255.255.255.0"
-push "route 10.1.30.0 255.255.255.0"
-push "route 10.1.60.0 255.255.255.0"' >> /etc/openvpn/server.conf
+echo 'push "route 192.168.0.0 255.255.255.0"
+push "route 10.1.10.0 255.255.255.0"' >> /etc/openvpn/server.conf
 	echo ';push "redirect-gateway def1 bypass-dhcp"' >> /etc/openvpn/server.conf
 	# DNS
 	case $DNS in
