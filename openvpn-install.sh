@@ -274,7 +274,7 @@ push "route 10.1.10.0 255.255.255.0"' >> /etc/openvpn/server.conf
 	# DNS
 	case $DNS in
 		1)
-		echo 'push "dhcp-option DNS 10.1.30.221"' >> /etc/openvpn/server.conf
+		echo 'push "dhcp-option DNS 10.1.10.117"' >> /etc/openvpn/server.conf
 		;;
 		2)
 		echo 'push "dhcp-option DNS 1.1.1.1"' >> /etc/openvpn/server.conf
