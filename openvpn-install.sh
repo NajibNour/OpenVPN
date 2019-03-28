@@ -395,9 +395,11 @@ verb 3" > /etc/openvpn/client-common.txt
 	echo "up /etc/openvpn/update-resolv-conf
 down /etc/openvpn/update-resolv-conf" >> ~/"$CLIENT.ovpn"
 
+sed -i 's/LimitNPROC*\(.*\)/#LimitNPROC=10\1/' /lib/systemd/system/openvpn@.service
 	echo
 	echo "Finished!"
 	echo
 	echo "Your client configuration is available at:" ~/"$CLIENT.ovpn"
 	echo "If you want to add more clients, you simply need to run this script again!"
 fi
+
