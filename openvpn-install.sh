@@ -164,7 +164,6 @@ if [[ -e /etc/openvpn/server.conf ]]; then
 	done
 else
 	clear
-	echo 'Welcome to this OpenVPN "road warrior" installer!'
 	echo
 	# OpenVPN setup and first user creation
 	echo "I need to ask you a few questions before starting the setup."
